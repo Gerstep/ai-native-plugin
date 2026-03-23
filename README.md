@@ -1,6 +1,8 @@
 # AI-Native Transformation Plan — Claude Code Plugin
 
-Interactive 90-day AI transformation plan builder for organizations. Part of the [AI-Native Organizations Playbook](https://github.com/sgershuni/ai-native-playbook).
+Interactive 90-day AI transformation plan builder for organizations. 
+Part of the [AI-Native Organizations Playbook]().
+Only for [AI Mindset course participants](https://ai-native.aimindset.org).
 
 ## What it does
 
