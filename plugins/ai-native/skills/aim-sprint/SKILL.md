@@ -1,5 +1,5 @@
 ---
-name: ai-native
+name: aim-sprint
 description: Interactive 90-day AI transformation plan builder for the AI-Native Organizations program. Guides users through structured diagnostic across 3 weekly sessions (week1, week2, week3), generates worksheets, and produces an interactive HTML dashboard. Invoke when user mentions "ai-native plan", "90-day plan", "transformation plan", "aim sprint", "неделя 1/2/3", or "план трансформации".
 version: 1.0.0
 ---

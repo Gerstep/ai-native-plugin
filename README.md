@@ -1,58 +1,63 @@
-# AI-Native Transformation Plan — Claude Code Plugin
+# AI-Native Transformation Plan — плагин для Claude Code
 
-Interactive 90-day AI transformation plan builder for organizations. 
-Part of the [AI-Native Organizations Playbook]().
-Only for [AI Mindset course participants](https://ai-native.aimindset.org).
+Интерактивный конструктор 90-дневного плана ИИ-трансформации.
+Только для [участников курса AI Mindset](https://ai-native.aimindset.org).
 
-## What it does
+## Что делает
 
-Guides you through a structured 3-week diagnostic sprint:
+Проводит структурированный диагностический спринт за 3 недели:
 
-- **Week 1**: Company assessment, process audit, top-3 initiative selection, AI Champions team
-- **Week 2**: 6-layer architecture diagnostic, data mapping, eval strategy, first SKILL.md
-- **Week 3**: Initiative roadmap, 90-day plan with ops/R&D split, metrics, Demo Day prep
+- **Неделя 1**: Оценка компании, аудит процессов, топ-3 инициативы, команда ИИ-чемпионов
+- **Неделя 2**: Диагностика по 6 слоям архитектуры, карта данных, стратегия eval, первый SKILL.md
+- **Неделя 3**: Карта инициатив, 90-дневный план (ops/R&D), метрики, подготовка к Demo Day
 
-Outputs:
-- `~/aim-sprint/week1.md`, `week2.md`, `week3.md` — structured worksheets
-- `~/aim-sprint/dashboard.html` — interactive Stripe-style HTML dashboard with 4 tabs (Overview, Initiatives, 90-Day Plan, Metrics)
+Результаты:
+- `~/aim-sprint/week1.md`, `week2.md`, `week3.md` — структурированные рабочие листы
+- `~/aim-sprint/dashboard.html` — интерактивный HTML-дашборд с 4 вкладками (Обзор, Инициативы, 90 дней, Метрики)
 
-## Install
+## Установка
 
-### Add the marketplace
+### 1. Добавить маркетплейс
 
 ```
 /plugin marketplace add Gerstep/ai-native-plugin
 ```
 
-### Install the plugin
+### 2. Установить плагин
 
 ```
 /plugin install ai-native@ai-native-marketplace
 ```
 
-### Reload
+### 3. Перезагрузить
 
 ```
 /reload-plugins
 ```
 
-## Usage
+## Использование
+
+Напишите в чат Claude Code:
 
 ```
-/ai-native:ai-native
+aim-sprint
 ```
 
-Or just tell Claude: "start the 90-day transformation plan" / "начни план трансформации"
+Или вызовите напрямую:
 
-## Requirements
+```
+/ai-native:aim-sprint
+```
+
+## Требования
 
 - Claude Code 1.0.33+
-- Works on macOS, Linux, Windows
+- macOS, Linux, Windows
 
-## Optional
+## Опционально
 
-Complete the diagnostic quiz at [codos.ai/quiz](https://codos.ai/quiz) before starting Week 1 for faster, more precise results.
+Пройдите диагностику на [codos.ai/quiz](https://codos.ai/quiz) перед началом Недели 1 для более точных результатов.
 
-## License
+## Лицензия
 
 MIT
