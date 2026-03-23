@@ -11,7 +11,7 @@
   "plugins": [
     {
       "name": "ai-native",
-      "source": "./",
+      "source": "./plugins/ai-native",
       "description": "Interactive 90-day AI transformation plan builder. 3-week diagnostic → worksheets → HTML dashboard.",
       "version": "1.0.0",
       "author": {
