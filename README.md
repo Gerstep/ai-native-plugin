@@ -19,7 +19,7 @@ Outputs:
 ### Add the marketplace
 
 ```
-/plugin marketplace add sgershuni/ai-native-plugin
+/plugin marketplace add Gerstep/ai-native-plugin
 ```
 
 ### Install the plugin
