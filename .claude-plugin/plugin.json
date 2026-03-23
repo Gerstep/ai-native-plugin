@@ -1,0 +1,12 @@
+{
+  "name": "ai-native",
+  "description": "Interactive 90-day AI transformation plan builder. Guides through 3-week diagnostic sessions and produces worksheets + interactive HTML dashboard. Invoke with /ai-native:ai-native or mention \"90-day plan\", \"aim sprint\", \"план трансформации\".",
+  "version": "1.0.0",
+  "author": {
+    "name": "Stepan Gershuni",
+    "email": "sg@cyber.fund"
+  },
+  "homepage": "https://github.com/sgershuni/ai-native-plugin",
+  "repository": "https://github.com/sgershuni/ai-native-plugin",
+  "license": "MIT"
+}

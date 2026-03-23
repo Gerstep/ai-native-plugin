@@ -1,0 +1,22 @@
+{
+  "name": "ai-native-marketplace",
+  "owner": {
+    "name": "Stepan Gershuni",
+    "email": "sg@cyber.fund"
+  },
+  "metadata": {
+    "description": "AI-Native Organizations transformation toolkit",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "ai-native",
+      "source": ".",
+      "description": "Interactive 90-day AI transformation plan builder. 3-week diagnostic → worksheets → HTML dashboard.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Stepan Gershuni"
+      }
+    }
+  ]
+}
